@@ -2,20 +2,8 @@
 
 ## Overview
 This repository implements a Deep Neural Network from scratch for binary classification. The network uses multiple hidden layers with ReLU activation and a sigmoid output layer, trained using gradient descent optimization.
+<img width="896" height="320" alt="image" src="https://github.com/user-attachments/assets/3868b020-f946-4886-a2d1-91352e082762" />
 
-neural-network-explorer/
-├── activation_functions.py     # Activation functions (ReLU, Sigmoid) and derivatives
-├── cost_function.py            # Cross-entropy cost with optional L2 regularization
-├── data_loader.py              # HDF5 data loading and image preprocessing
-├── layer.py                    # Forward/backward propagation for linear and activation layers
-├── main.py                     # Main script for training, prediction, and demos
-├── neural_network.py           # Core NeuralNetwork class (forward prop, backprop, training)
-├── parameter_init.py           # Initialization strategies (He, Xavier, random)
-├── streamlit_app.py            # Interactive Streamlit web app for education and visualization
-├── visualizer.py               # Plotting utilities (costs, weights, mislabeled images)
-├── requirements.txt            # Dependencies
-├── README.md                   # This file
-└── *.h5                        # Dataset files (optional: train_catvnoncat.h5, test_catvnoncat.h5)
 ## Network Architecture
 
 ```
